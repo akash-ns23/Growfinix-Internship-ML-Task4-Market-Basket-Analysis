@@ -1,0 +1,28 @@
+FREQUENT ITEMSETS:
+('Beer',) -> Support: 0.4
+('Bread',) -> Support: 0.7
+('Diaper',) -> Support: 0.6
+('Eggs',) -> Support: 0.4
+('Milk',) -> Support: 0.8
+('Beer', 'Diaper') -> Support: 0.4
+('Beer', 'Milk') -> Support: 0.3
+('Bread', 'Diaper') -> Support: 0.4
+('Bread', 'Eggs') -> Support: 0.3
+('Bread', 'Milk') -> Support: 0.5
+('Diaper', 'Milk') -> Support: 0.5
+
+ASSOCIATION RULES:
+('Beer',) -> ('Diaper',) | Confidence: 1.0
+('Diaper',) -> ('Beer',) | Confidence: 0.67
+('Beer',) -> ('Milk',) | Confidence: 0.75
+('Milk',) -> ('Beer',) | Confidence: 0.37
+('Bread',) -> ('Diaper',) | Confidence: 0.57
+('Diaper',) -> ('Bread',) | Confidence: 0.67
+('Bread',) -> ('Eggs',) | Confidence: 0.43
+('Eggs',) -> ('Bread',) | Confidence: 0.75
+('Bread',) -> ('Milk',) | Confidence: 0.71
+('Milk',) -> ('Bread',) | Confidence: 0.62
+('Diaper',) -> ('Milk',) | Confidence: 0.83
+('Milk',) -> ('Diaper',) | Confidence: 0.62
+
+Task Completed Successfully!
